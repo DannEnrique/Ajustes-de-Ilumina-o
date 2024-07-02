@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajustes de iluminação</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="preview"></div>
+        <span>Ajustes de iluminação do Dan
+            <div id="colorful-div"></div>
+       <button onclick="changeColor()">Mudar Cor</button>
+        </span>
+        
+        <div class="controls">
+            <div class="hue">
+                <img src="estudos-de-arte.png" alt="">
+                <div>
+                    <input type="range" id="hue-slider" min="0" max="360" step="1" value="0">
+                </div>
+
+            </div>
+
+            <div class="brightness">
+                <img src="verao.png" alt="">
+                <div>
+                    <input type="range" id="brightness-slider" min="0" max="100" step="1" value="100">
+                </div>
+            </div>
+
+            <div class="contrast">
+                <img src="circulo.png" alt="">
+                <div>
+                    <input type="range" id="contrast-slider" min="0" max="100" step="1" value="100">
+                </div>
+            </div>
+
+        </div>
+        <script src="./main.js"></script>
+    </main>
+</body>
+</html>
